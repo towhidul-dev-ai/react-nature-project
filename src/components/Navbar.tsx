@@ -1,9 +1,15 @@
 import { FaCartPlus } from "react-icons/fa";
 import { IoSearchCircle } from "react-icons/io5";
 import Logo from "../assets/nav-logo.png"
+import type { IpopularProduct } from "../types";
+
+interface INavbarProps {
+    cart: IpopularProduct[];
+    setCart: React.Dispatch<React.SetStateAction<any[]>>
+}
 
 
-const Navbar = () => {
+const Navbar = ({ cart, setCart }: INavbarProps) => {
     return (
         <div className="border-b border-gray-300">
             <nav className="flex justify-between gap-6 max-w-7xl mx-auto py-4 px-4 py-4 ">
@@ -18,6 +24,12 @@ const Navbar = () => {
                 <div className="flex gap-4 items-center">
                     <IoSearchCircle />
                     <FaCartPlus />
+
+
+                    <span className="bg-[#179800] text-white px-2 py-1 rounded-full text-sm">
+                        {cart.length}
+                    </span>
+
                     <button className="bg-blue-500 text-whitepx-4 py-2 
                     rounded-md hover:bg-blue-600 hover:scale-110 transition-transform duration-300">Login</button>
                     <button className="bg-green-500 text-white px-4 py-2 

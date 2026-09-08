@@ -1,0 +1,56 @@
+[
+  {
+    "productImg": "https://images.unsplash.com/photo-1523275335684-37898b6baf30",
+    "title": "Classic Smart Watch",
+    "price": 129.99,
+    "rating": 4.5
+  },
+  {
+    "productImg": "https://images.unsplash.com/photo-1542291026-7eec264c27ff",
+    "title": "Running Shoes",
+    "price": 89.99,
+    "rating": 4.7
+  },
+  {
+    "productImg": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e",
+    "title": "Wireless Headphones",
+    "price": 149.99,
+    "rating": 4.8
+  },
+  {
+    "productImg": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085",
+    "title": "Coffee Mug",
+    "price": 19.99,
+    "rating": 4.3
+  },
+  {
+    "productImg": "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f",
+    "title": "Vintage Camera",
+    "price": 299.99,
+    "rating": 4.6
+  },
+  {
+    "productImg": "https://images.unsplash.com/photo-1503602642458-232111445657",
+    "title": "Modern Chair",
+    "price": 179.99,
+    "rating": 4.4
+  },
+  {
+    "productImg": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8",
+    "title": "Laptop Computer",
+    "price": 899.99,
+    "rating": 4.9
+  },
+  {
+    "productImg": "https://images.unsplash.com/photo-1546868871-7041f2a55e12",
+    "title": "Smart Watch Pro",
+    "price": 199.99,
+    "rating": 4.6
+  },
+  {
+    "productImg": "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46",
+    "title": "Wireless Mouse",
+    "price": 39.99,
+    "rating": 4.5
+  }
+]
