@@ -28,9 +28,7 @@ const App = () => {
                     cart={cart}
                     setCart={setCart} />
             </Suspense>
-            <h2>Banner Section</h2>
-            <h2>Services section</h2>
-            <h2>Footer</h2>
+
         </>
     );
 };
